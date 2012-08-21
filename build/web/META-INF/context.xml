@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/BankSystem">
+<WatchedResource>WEB-INF/web.xml</WatchedResource>
+<Resource name="jdbc/bank_system" 
+          auth="Container" 
+          type="javax.sql.DataSource" 
+          factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+          testWhileIdle="true"
+          testOnBorrow="true"
+          testOnReturn="false"
+          validationQuery="SELECT 1"
+          validationInterval="30000"
+          timeBetweenEvictionRunsMillis="30000"
+          maxActive="1000" 
+          minIdle="5" 
+          maxWait="10000" 
+          initialSize="5"
+          removeAbandonedTimeout="60"
+          removeAbandoned="true"
+          logAbandoned="true"
+          minEvictableIdleTimeMillis="30000" 
+          jmxEnabled="true"
+          jdbcInterceptors=
+"org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer"
+          username="root" 
+          password="root" 
+          driverClassName="com.mysql.jdbc.Driver"
+          url="jdbc:mysql://localhost:3306/bank_system?useEncoding=true&amp;characterEncoding=UTF-8"/>
+</Context>

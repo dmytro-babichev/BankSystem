@@ -1,0 +1,41 @@
+<tr>
+	<td>
+		<form method="post" action="general_controller">
+	        <input type="hidden" name="command" value="act_deact"/>
+            <input type="submit" value="Deactivate"/>
+        </form>
+    </td>
+    <td>
+		<form method="post" action="general_controller">
+	        <input type="hidden" name="command" value="update_account"/>
+            <input type="hidden" name="page" value="remittee.jsp"/>
+            <input type="submit" value="Make payment"/>
+        </form>
+    </td>
+    <td>
+        <form method="post" action="general_controller">
+	        <input type="hidden" name="command" value="update_account"/>
+            <input type="hidden" name="page" value="recharge.jsp"/>
+            <input type="submit" value="Recharge"/>
+	    </form>
+    </td>
+    <td>
+        <form method="post" action="general_controller">
+            <input type="hidden" name="command" value="get_transactions"/>
+            <input type="submit" value="Show transactions"/>
+        </form>
+    </td>
+    <td>
+        <form method="post" action="general_controller">
+            <input type="hidden" name="command" value="get_accounts"/>
+            <input type="submit" value="To accounts"/>
+        </form>
+    </td>
+    <td>
+	    <form method="post" action="general_controller">
+	        <input type="hidden" name="command" value="open_account"/>
+            <input type="hidden" name="account" value="@@@"/>
+            <input type="submit" value="To account"/>
+        </form>
+    </td>
+</tr>
