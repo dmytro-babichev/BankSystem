@@ -1,0 +1,99 @@
+/* 
+    Document   : operations
+    Created on : 26.07.2012, 14:11:06
+    Author     : laory
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+	font: normal 13px auto "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	background: #E8EDFF;
+}
+
+a {
+	color: #c75f3e;
+}
+
+#mytable {
+	width: auto;
+        height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+#mytable2 {
+	width: auto;
+        height: 350px;
+	padding: 0;
+	margin: 0;
+        overflow-y: auto;
+        display: block;
+}
+
+#main {
+	width: auto;
+        height: auto;
+	padding: 0;
+	margin: 0;
+        position: relative;
+        top: 150px;
+        background: #E5EAFB;
+}
+
+.test caption {
+	padding: 0 0 5px 0;
+	width: auto;	 
+	font: italic 13px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+.test th {
+	font: bold 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+}
+
+.test th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+}
+
+.test td {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #fff;
+	padding: 6px 12px 6px 12px;
+	color: #4f6b72;
+}
+
+
+.test td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+.test th.spec {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(images/bullet2.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.test th.specalt {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(images/bullet1.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #797268;
+}
